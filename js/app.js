@@ -6,7 +6,6 @@ window.addEventListener('scroll', function() {
 });
 
 
-// Smooth scroll
 
 $(function() {
 
@@ -26,7 +25,6 @@ $(function() {
         $("html, body").animate( {
             scrollTop: blockOffset
         }, 1000);
-
     });
 
 
@@ -57,9 +55,4 @@ $(function() {
         autoplay: true,
         autoplaySpeed: 4000,
       });
-
-
-
-
-
 });

@@ -24,7 +24,7 @@ a {
 
 .main {
   width: 100%;
-  height: 950px;
+  height: 1150px;
   text-align: center;
   position: relative;
 }
@@ -190,6 +190,10 @@ a {
   background-image: url(../Images/bg-4.png);
 }
 
+.container.one.slick-slide.slick-current .slick-active {
+  width: 1093px;
+}
+
 .slick-initialized.slick-slider.slick-dotted .slick-dots {
   margin: 0;
   padding: 0;
@@ -284,6 +288,7 @@ a {
 .section__projects {
   width: 100%;
   height: 1633px;
+  position: relative;
 }
 
 .project__title {
@@ -291,8 +296,18 @@ a {
   font-family: "Gotham";
   font-weight: bold;
   text-align: center;
-  margin-top: 140px;
+  padding-top: 140px;
   color: #2c4058;
+}
+
+.project__title::before {
+  width: 100px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: black;
+  top: 100px;
+  right: 47%;
 }
 
 .projects__blockOne, .projects__blockTwo {
